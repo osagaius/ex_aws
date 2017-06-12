@@ -1,0 +1,28 @@
+### Features
+- list of features (remove section if unused)
+
+### Enhancements
+- list of enhancements (remove section if unused)
+
+### Fixes
+- list of fixes (remove section if unused)
+
+#### PR Checklist
+- [ ] passes all existing tests
+- [ ] adequate test coverage for new code (> 50%)
+- [ ] relevant module/function documentation
+- [ ] conforms to PR and branch naming conventions (e.g feature/YYYY.MM.DD_short-description)
+- [ ] conforms to code style conventions
+- [ ] implements changes requested by the project maintainers
+- [ ] up-to-date with master
+- [ ] if the PR is a hotfix against a release, an associated bugfix PR exists against the master branch
+
+#### Notes
+
+To ensure a quick review and merge please make sure to fill out this template
+prior to submission. Pull requests that do not meet the guidelines described in
+this template will not be merged.
+
+Please add the `Ready for Review` label when you are ready for the maintainers to review
+the PR. Add the `Ready to Merge` label when you are ready for the maintainer to merge
+the PR.

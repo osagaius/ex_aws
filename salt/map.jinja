@@ -1,0 +1,7 @@
+{% set workspace = salt['pillar.get'](
+  'workspace',
+  default={
+    'path': '/vagrant',
+    'user': 'vagrant'},
+  merge=True)
+%}

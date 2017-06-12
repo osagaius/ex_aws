@@ -1,0 +1,7 @@
+# Salt master-less setup
+file_client: local
+
+# Grains
+grains:
+  roles:
+    - ex_aws

@@ -1,0 +1,9 @@
+start on (local-filesystems and runlevel [2345])
+stop on runlevel [016]
+
+chdir {{ dynamodb_path }}
+
+setuid {{ user }}
+setgid {{ group }}
+
+exec java -Djava.library.path=. -jar DynamoDBLocal.jar -port {{ port }}
